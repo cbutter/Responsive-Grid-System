@@ -1,0 +1,123 @@
+//Container max-width
+$container-max-width: 1280px
+
+//Grid padding
+$g-pad: 6px
+
+//Grid breakpoints
+$breakpoint-S: 480px
+$breakpoint-M: 768px
+$breakpoint-L: 1024px
+
+//Grid unit widths
+$g-uw-1_12: (100% / (12/1))
+$g-uw-2_12: (100% / (12/2))
+$g-uw-3_12: (100% / (12/3))
+$g-uw-4_12: (100% / (12/4))
+$g-uw-5_12: (100% / (12/5))
+$g-uw-6_12: (100% / (12/6))
+$g-uw-7_12: (100% / (12/7))
+$g-uw-8_12: (100% / (12/8))
+$g-uw-9_12: (100% / (12/9))
+$g-uw-10_12: (100% / (12/10))
+$g-uw-11_12: (100% / (12/11))
+$g-uw-12_12: (100% / (12/12))
+
+.container
+	position: relative
+	width: 100%
+	overflow: hidden
+	margin: auto
+	max-width: $container-max-width
+	padding: $g-pad
+	
+	&.full
+		max-width: 100%
+
+.box
+	float: left
+	padding: $g-pad
+	width: 100%
+	
+.l-1
+	width: $g-uw-1_12
+.l-2
+	width: $g-uw-2_12
+.l-3
+	width: $g-uw-3_12
+.l-4
+	width: $g-uw-4_12
+.l-5
+	width: $g-uw-5_12
+.l-6
+	width: $g-uw-6_12
+.l-7
+	width: $g-uw-7_12
+.l-8
+	width: $g-uw-8_12
+.l-9
+	width: $g-uw-9_12
+.l-10
+	width: $g-uw-10_12
+.l-11
+	width: $g-uw-11_12
+.l-12
+	width: $g-uw-12_12
+
+@media screen and(max-width: #{$breakpoint-M})
+	.m-1
+		width: $g-uw-1_12
+	.m-2
+		width: $g-uw-2_12
+	.m-3 
+		width: $g-uw-3_12
+	.m-4
+		width: $g-uw-4_12
+	.m-5
+		width: $g-uw-5_12
+	.m-6
+		width: $g-uw-6_12
+	.m-7
+		width: $g-uw-7_12
+	.m-8
+		width: $g-uw-8_12
+	.m-9
+		width: $g-uw-9_12
+	.m-10
+		width: $g-uw-10_12
+	.m-11
+		width: $g-uw-11_12
+	.m-12
+		width: $g-uw-12_12
+
+	.m-hide
+		display: none
+
+@media screen and(max-width: #{$breakpoint-S})
+	.s-1
+		width: $g-uw-1_12
+	.s-2
+		width: $g-uw-2_12
+	.s-3 
+		width: $g-uw-3_12
+	.s-4
+		width: $g-uw-4_12
+	.s-5
+		width: $g-uw-5_12
+	.s-6
+		width: $g-uw-6_12
+	.s-7
+		width: $g-uw-7_12
+	.s-8
+		width: $g-uw-8_12
+	.s-9
+		width: $g-uw-9_12
+	.s-10
+		width: $g-uw-10_12
+	.s-11
+		width: $g-uw-11_12
+	.s-12
+		width: $g-uw-12_12
+
+	.s-hide
+		display: none
