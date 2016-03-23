@@ -1,5 +1,8 @@
+//Font
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:300)
+
 // Colors
-$red:     	#FF4136
+$black:     #111111
 $white:  	#F5F5F5
 
 * 
@@ -10,17 +13,23 @@ body
 	background-color: $white
 
 .box pre
-	background-color: $red
+	background-color: $black
 	text-align: center
 	color: $white
 	padding: 24px 4px
 	font-size: 14px
 	margin: 0px
+	border: solid 1px $black
+	
+	&:hover
+		background-color: $white
+		color: $black
 
 pre 
+	font-family: 'Roboto Mono'
 	background-color: transparent
 	text-align: left
-	color: $red
+	color: $black
 	padding: 12px 4px
 	font-size: 14px
 	margin: $g-pad
