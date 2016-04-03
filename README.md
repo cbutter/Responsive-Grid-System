@@ -1,4 +1,5 @@
-# THIS IS A 12-COLUMN RESPONSIVE GRID SYSTEM
+THIS IS A 12-COLUMN RESPONSIVE GRID SYSTEM
+by Craig Butterworth
 
 GETTING STARTED
 
@@ -15,5 +16,3 @@ To make an element with a width of 25% of its container at large (L) window size
 To make an element with a width of 50% regardless of the winow size you only need to add one class for the large (L) window size: class="box L-6"
 
 Add an .XS-hide, .S-hide, .M-hide, .L-hide or XL-hide class. to hide an element at extra-small (XS), small (S), medium (M), large (L) or extra-large (XL) window sizes.
-
-CREDIT: design.craigbutterworth.com
